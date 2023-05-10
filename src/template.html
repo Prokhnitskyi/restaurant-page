@@ -7,8 +7,44 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-<div id="content">
-
+<div id="content" class="content">
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__logo">
+                <img src="" alt="logo" class="header__logo-img">
+                <h1 class="header__title">Restaurant Name</h1>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Menu</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h2 class="hero__title">Page title title</h2>
+            <img src="" alt="Hero image" class="hero__image">
+        </section>
+        <section class="about">
+            Discover culinary excellence at [Restaurant Name], where passion meets hospitality. Indulge in exquisite dishes crafted with fresh, local ingredients. Immerse yourself in a warm and inviting ambiance while our attentive staff ensures an unforgettable dining experience. Join us for an extraordinary culinary journey today.
+        </section>
+        <section class="features">
+            <h2 class="features__title">Our features</h2>
+            <div class="features__grid">
+                <div class="features__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cum dolore, fugiat quas sint suscipit.</div>
+                <div class="features__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                <div class="features__item">Lorem ipsum dolor sit amet.</div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__made-by">Photo by <a href="https://unsplash.com/@fsuarez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Francisco Suarez</a> on <a href="https://unsplash.com/photos/0EkWTSFXwCc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+             | Code: <a href="https://github.com/Prokhnitskyi/" target="_blank" title="Github">Andrii
+            Prokhnitskyi</a></div>
+    </footer>
 </div>
 </body>
 </html>

@@ -1,0 +1,9 @@
+@use "sass:color";
+
+$text-color-main: #4C3D3D;
+$background-color: #FFF7D4;
+$accent-color: #FFD95A;
+$main-color: #c07f00;
+$link-color: #f6813c;
+$link-hover-color: color.adjust($link-color, $lightness: -30%);
+$shadow-color: rgba(192, 127, 0, 0.4);
