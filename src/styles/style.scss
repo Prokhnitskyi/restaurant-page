@@ -90,7 +90,7 @@ a, a:visited {
   }
 }
 
-.menu {
+.nav-menu {
   justify-self: center;
   display: flex;
   justify-content: center;
@@ -107,17 +107,21 @@ a, a:visited {
 
   &__item {
     font-size: 1.2rem;
+
   }
 
   &__link, &__link:visited {
+    display: block;
     font-weight: bold;
     letter-spacing: 0.1rem;
     color: $background-color;
+    transition: transform 400ms;
 
     &:hover {
       color: $background-color;
       text-decoration-color: $text-color-main;
       text-underline-offset: 0.5rem;
+      transform: translateY(-0.2rem);
     }
   }
 }

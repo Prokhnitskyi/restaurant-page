@@ -3,10 +3,10 @@
     "name": "Restaurant Name",
     "logoAltText": "logo"
   },
-  "menu": [
-    {"name": "Home", "href": "#"},
-    {"name": "Menu", "href": "#"},
-    {"name": "Contact", "href": "#"}
+  "navMenu": [
+    {"name": "Home", "href": "#", "page": "Home"},
+    {"name": "Menu", "href": "#", "page": "Menu"},
+    {"name": "Contacts", "href": "#", "page": "Contacts"}
   ],
   "hero": {
     "name": "Restaurant Name"
@@ -23,6 +23,35 @@
     ]
   },
   "footer": {
-    "madeBy": "Photo by <a href=\"https://unsplash.com/@fsuarez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Francisco Suarez</a> on <a href=\"https://unsplash.com/photos/0EkWTSFXwCc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a> | Code: <a href=\"https://github.com/Prokhnitskyi/\" target=\"_blank\" title=\"Github\">Andrii Prokhnitskyi</a>"
+    "madeBy": "Hero Photo by <a href=\"https://unsplash.com/@fsuarez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Francisco Suarez</a> on <a href=\"https://unsplash.com/photos/0EkWTSFXwCc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a> | Code: <a href=\"https://github.com/Prokhnitskyi/\" target=\"_blank\" title=\"Github\">Andrii Prokhnitskyi</a>"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "foods": [
+      {
+        "name": "Burger",
+        "description": "Photo by <a href=\"https://unsplash.com/@enginakyurt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">engin akyurt</a> on <a href=\"https://unsplash.com/photos/g1MG9i0ux8Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n"
+      },
+      {
+        "name": "Chicken breasts",
+        "description": "Photo by <a href=\"https://unsplash.com/pt-br/@sammoghadamkhamseh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Sam Moghadam Khamseh</a> on <a href=\"https://unsplash.com/photos/VpOpy6QrDrs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n  "
+      },
+      {
+        "name": "Pancakes",
+        "description": "Photo by <a href=\"https://unsplash.com/@bartoshevicz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Adam Bartoszewicz</a> on <a href=\"https://unsplash.com/photos/s8iYlK9ByQE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n  "
+      },
+      {
+        "name": "Grilled cheese",
+        "description": "Photo by <a href=\"https://unsplash.com/@pixzolo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Pixzolo Photography</a> on <a href=\"https://unsplash.com/photos/ZB8NK8cB4EE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n  "
+      },
+      {
+        "name": "French fries",
+        "description": "Photo by <a href=\"https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Louis Hansel</a> on <a href=\"https://unsplash.com/photos/vi0kZuoe0-8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n  "
+      },
+      {
+        "name": "Chicken wings",
+        "description": "Photo by <a href=\"https://unsplash.com/pt-br/@alaioagency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Alaundra Alford</a> on <a href=\"https://unsplash.com/photos/BmRbJBoudDw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n  "
+      }
+    ]
   }
 }

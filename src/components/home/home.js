@@ -1,4 +1,3 @@
-// temp
 import './home.scss';
 import heroImg from '../../assets/images/hero.webp';
 import texts from '../../assets/data/text-resourses.json';

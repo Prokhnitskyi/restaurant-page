@@ -1,6 +1,6 @@
 @mixin wrapper {
   max-width: 60rem;
-  margin: 0 auto;
+  margin-inline: auto;
   padding: 0 min(1rem, 10px);
 }
 
