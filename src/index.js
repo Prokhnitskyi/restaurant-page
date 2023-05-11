@@ -6,8 +6,8 @@ import { getHome } from './components/home/home';
 import { getMenu } from './components/menu/menu';
 
 const pages = {
-  'Home': getHome(),
-  'Menu': getMenu()
+  'Home': getHome,
+  'Menu': getMenu
 }
 
 function getHeader () {
@@ -48,8 +48,17 @@ function initHandlers() {
 
 function navigateToPage (event) {
   event.preventDefault();
-  renderPage([getHeader(),getMain(pages[this.dataset.page]),getFooter()], initHandlers);
+  renderPage([
+      getHeader(),
+      getMain(pages[this.dataset.page]()),
+      getFooter(),
+    ],
+    initHandlers);
 }
 
-renderPage([getHeader(), getMain(getHome()), getFooter()], initHandlers);
-//renderPage([getHeader(), getMain(getMenu()), getFooter()]);
+renderPage([
+    getHeader(),
+    getMain(getHome()),
+    getFooter(),
+  ],
+  initHandlers);
