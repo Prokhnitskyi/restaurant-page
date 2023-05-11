@@ -1,0 +1,28 @@
+{
+  "header": {
+    "name": "Restaurant Name",
+    "logoAltText": "logo"
+  },
+  "menu": [
+    {"name": "Home", "href": "#"},
+    {"name": "Menu", "href": "#"},
+    {"name": "Contact", "href": "#"}
+  ],
+  "hero": {
+    "name": "Restaurant Name"
+  },
+  "about": {
+    "text": "Discover culinary excellence at [Restaurant Name], where passion meets hospitality. Indulge in exquisite dishes crafted with fresh, local ingredients. Immerse yourself in a warm and inviting ambiance while our attentive staff ensures an unforgettable dining experience. Join us for an extraordinary culinary journey today."
+  },
+  "features": {
+    "title": "Our features",
+    "cards": [
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cum dolore, fugiat quas sint suscipit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet."
+    ]
+  },
+  "footer": {
+    "madeBy": "Photo by <a href=\"https://unsplash.com/@fsuarez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Francisco Suarez</a> on <a href=\"https://unsplash.com/photos/0EkWTSFXwCc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a> | Code: <a href=\"https://github.com/Prokhnitskyi/\" target=\"_blank\" title=\"Github\">Andrii Prokhnitskyi</a>"
+  }
+}
