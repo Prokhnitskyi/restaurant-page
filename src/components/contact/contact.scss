@@ -7,7 +7,7 @@
   display: grid;
   place-items: center;
   place-content: center;
-  grid-template-columns: min(480px, 90vw);
+  grid-template-columns: min(640px, 90vw);
 
   &__container {
     justify-self: stretch;
@@ -23,11 +23,15 @@
     margin-bottom: 2rem;
   }
 
+  &__address {
+    margin-bottom: 0.5rem;
+  }
+
   &__map {
     height: 280px;
   }
 }
 
 .leaflet-control-attribution {
-  font-size: 8px;
+  font-size: 10px;
 }

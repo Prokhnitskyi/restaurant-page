@@ -53,5 +53,9 @@
         "description": "Photo by <a href=\"https://unsplash.com/pt-br/@alaioagency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Alaundra Alford</a> on <a href=\"https://unsplash.com/photos/BmRbJBoudDw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>\n  "
       }
     ]
+  },
+  "contacts": {
+    "title": "Contact us",
+    "address": "проспект Романа Шухевича, 2т, ТРЦ Sky Mall, Kyiv, 02000"
   }
 }
