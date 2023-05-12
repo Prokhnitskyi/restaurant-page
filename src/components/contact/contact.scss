@@ -22,4 +22,12 @@
     font-size: 2rem;
     margin-bottom: 2rem;
   }
+
+  &__map {
+    height: 280px;
+  }
+}
+
+.leaflet-control-attribution {
+  font-size: 8px;
 }
