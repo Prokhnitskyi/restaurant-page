@@ -31,7 +31,6 @@
   }
 
   &__image {
-    background-color: red;
     transform: translateY(-1rem) scale(1.2);
     display: block;
     margin-bottom: 0.5rem;
@@ -40,6 +39,7 @@
     height: 140px;
     object-fit: cover;
     object-position: center;
+    box-shadow: 0 0 2px 0 $shadow-color;
   }
 
   &__item-name {

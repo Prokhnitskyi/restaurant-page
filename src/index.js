@@ -4,10 +4,12 @@ import headerLogo from './assets/images/logo.svg';
 import { renderPage } from './utility';
 import { getHome } from './components/home/home';
 import { getMenu } from './components/menu/menu';
+import { getContacts } from './components/contact/contact';
 
 const pages = {
   'Home': getHome,
-  'Menu': getMenu
+  'Menu': getMenu,
+  'Contacts': getContacts
 }
 
 function getHeader () {
